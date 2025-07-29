@@ -1,0 +1,4 @@
+{"id": "REG-001", "field": "fuel_type", "expected": "Electric", "tags": ["EV"], "reason": "Only electric vehicles are allowed."}
+{"id": "REG-002", "field": "battery_standard", "expected": "ISO 12405", "tags": ["battery"], "reason": "Battery must comply with ISO 12405."}
+{"id": "REG-003", "field": "emission", "expected": "≤ 80", "tags": ["BS6", "diesel"], "reason": "Emission must not exceed 80 g/km under BS6 norms."}
+{"id": "REG-004", "field": "safety_rating", "expected": "≥ 4", "tags": ["safety"], "reason": "Minimum 4-star safety rating required."}
