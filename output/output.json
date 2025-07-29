@@ -1,0 +1,34 @@
+{
+  "status": "Compliance Check Initiated",
+  "regData": {
+    "battery_standard": "ISO 12405",
+    "emission": "\u00e2\u2030\u00a4 80",
+    "fuel_type": "Electric",
+    "safety_rating": "\u00e2\u2030\u00a5 4"
+  },
+  "carData": {
+    "emission": 92,
+    "fuel_type": "diesel",
+    "battery_standard": "ISO 12345",
+    "safety_rating": 3
+  },
+  "issues": [
+    {
+      "parameter": "emission",
+      "issue": "Exceeds emission limit. The car's emission is 92 g/km, while the limit is 80 g/km."
+    },
+    {
+      "parameter": "fuel_type",
+      "issue": "Non-compliant fuel type. The car uses diesel, but only electric vehicles are allowed."
+    },
+    {
+      "parameter": "battery_standard",
+      "issue": "Non-compliant battery standard. The car's battery standard is ISO 12345, while ISO 12405 is required."
+    },
+    {
+      "parameter": "safety_rating",
+      "issue": "Below minimum safety rating. The car has a 3-star safety rating, while a minimum of 4 stars is required."
+    }
+  ],
+  "reason": "The vehicle does not comply with emission standards, fuel type regulations, battery standards, and safety rating requirements."
+}
